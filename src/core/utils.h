@@ -13,7 +13,7 @@
 
 #include "../core/defs.h"
 #include <mutex>
-#include <nmmintrin.h>
+#include <arm_neon.h>
 #include <string>
 #include <random>
 #include <vector>

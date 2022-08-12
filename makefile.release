@@ -14,7 +14,7 @@ PYBIND11_LIB = $(PY_AGC_API_DIR)/pybind11-2.8.1
 
 CC 	= g++
 AR 	= ar
-CFLAGS	= -fPIC -Wall -g -O3 -m64 -std=c++17 -pthread -mavx -I $(INCLUDE_DIR) -fpermissive
+CFLAGS	= -fPIC -Wall -g -O3 -std=c++17 -pthread -I $(INCLUDE_DIR) -fpermissive
 CLINK	= -g -lm -lpthread -std=c++17 -L. -O2 -static-libstdc++
 PY_CFLAGS = -Wl,-undefined,dynamic_lookup -fPIC -Wall -shared -std=c++17  -O3 
 

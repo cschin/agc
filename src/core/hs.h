@@ -11,9 +11,8 @@
 // Date   : 2022-04-05
 // *******************************************************************************************
 
-#include <mmintrin.h>
+#include <arm_neon.h>
 #include <cstdint>
-#include <xmmintrin.h>
 #include <cstddef>
 
 #include <algorithm>
